@@ -1,16 +1,15 @@
 .cabeçalho{
     background:#cc8874;
-    color:black
-    display: flex;
-    justify-content: space-around;
+    display: flex ;
     align-items: padding 24px 0;
+    justify-content: space-around;
+    color:black
 }
 .cabeçalho-imagem{
     width: 20%
 }
 .cabeçalho-lista-item{
 display: inline-block;
+font-size: 24px;
 margin: 0 16px
-font-size: 24px
 }
-
