@@ -13,3 +13,216 @@ display: inline-block;
 font-size: 24px;
 margin: 0 16px
 }
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Refúgio Rural - Da Cidade para o Campo</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            text-align: center;
+            background-color: #4CAF50;
+            padding: 0.5rem;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+        }
+        .main-content {
+            padding: 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .service {
+            margin-bottom: 2rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 1rem;
+            background-color: #fff;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 2rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form label {
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        form button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Nosso Refúgio Rural</h1>
+            <p>Descubra a tranquilidade do campo, a apenas um passo da cidade.</p>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <a href="#sobre">Sobre Nós</a>
+            <a href="#servicos">Nossos Serviços</a>
+            <a href="#imoveis">Imóveis Rurais</a>
+            <a href="#turismo">Turismo Rural</a>
+            <a href="#eventos">Eventos Especiais</a>
+            <a href="#blog">Blog</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </nav>
+    
+    <div class="container main-content">
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Somos apaixonados por proporcionar uma experiência de vida tranquila e conectada com a natureza. Nosso refúgio rural oferece uma oportunidade única para quem deseja fugir do estresse da cidade e abraçar um estilo de vida mais sustentável e harmonioso.</p>
+        </section>
+        
+        <section id="servicos">
+            <h2>Nossos Serviços</h2>
+            <div class="service">
+                <h3>Imóveis Rurais</h3>
+                <p>Descubra nossas propriedades rurais disponíveis para venda ou aluguel, perfeitas para quem busca paz e privacidade.</p>
+            </div>
+            <div class="service">
+                <h3>Turismo Rural</h3>
+                <p>Explore pacotes de experiências rurais, incluindo caminhadas guiadas, passeios a cavalo, e degustações de produtos locais.</p>
+            </div>
+            <div class="service">
+                <h3>Eventos Especiais</h3>
+                <p>Oferecemos espaços rurais para eventos memoráveis como casamentos, retiros e celebrações corporativas. Nossa equipe está aqui para tornar seu evento especial e inesquecível.</p>
+            </div>
+        </section>
+        
+        <section id="imoveis">
+            <h2>Imóveis Rurais</h2>
+            <p>Confira abaixo algumas das nossas propriedades disponíveis:</p>
+            <div class="service">
+                <h3>Fazenda Recanto Verde</h3>
+                <p>Localizada no coração da natureza, esta fazenda oferece uma casa principal espaçosa com vistas panorâmicas e uma área de lazer completa.</p>
+                <p><strong>Preço:</strong> A partir de R$ 1.500.000</p>
+            </div>
+            <div class="service">
+                <h3>Chácara do Sol</h3>
+                <p>Chácara encantadora com pomar e área de churrasqueira, ideal para fins de semana relaxantes em família.</p>
+                <p><strong>Preço de Aluguel:</strong> A partir de R$ 500/dia</p>
+            </div>
+        </section>
+        
+        <section id="turismo">
+            <h2>Turismo Rural</h2>
+            <p>Descubra nossos pacotes de turismo rural para experiências autênticas na natureza:</p>
+            <ul>
+                <li>Passeios a cavalo pelas trilhas locais.</li>
+                <li>Oficinas de agricultura orgânica.</li>
+                <li>Visitas guiadas a pontos turísticos naturais.</li>
+            </ul>
+        </section>
+        
+        <section id="eventos">
+            <h2>Eventos Especiais</h2>
+            <p>Planeje seu evento especial em um ambiente único e natural:</p>
+            <ul>
+                <li>Casamentos ao ar livre com vistas deslumbrantes.</li>
+                <li>Retiros de bem-estar para recarregar as energias.</li>
+                <li>Workshops corporativos em um ambiente tranquilo.</li>
+            </ul>
+        </section>
+        
+        <section id="blog">
+            <h2>Blog</h2>
+            <article>
+                <h3>Dicas para uma vida rural equilibrada</h3>
+                <p>Explore nossas dicas práticas para uma transição suave da cidade para o campo.</p>
+                <p><a href="#">Leia mais</a></p>
+            </article>
+            <article>
+                <h3>Receitas locais para experimentar</h3>
+                <p>Descubra receitas deliciosas com ingredientes frescos e locais da nossa região rural.</p>
+                <p><a href="#">Leia mais</a></p>
+            </article>
+        </section>
+        
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Para mais informações sobre nossos serviços ou agendamento de visitas, entre em contato conosco:</p>
+            <form action="enviar.php" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Nosso Refúgio Rural. Todos os direitos reservados. | Desenvolvido por <a href="https://seu-site.com" target="_blank">Seu Nome</a></p>
+        </div>
+    </footer>
+</body>
+</html>
